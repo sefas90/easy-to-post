@@ -1,4 +1,13 @@
 {
+  "facebook":{
+    "registrate": " Registrate con Facebook"
+  },
+  "login":{
+    "registrate": "Registrate"
+  },
+  "twitter": {
+    "registrate": "Registrate con twitter"
+  },
   "NAME": "Nombre",
   "PASSWORD": "Contraseña",
   "EMAIL": "Email",
