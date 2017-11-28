@@ -6,6 +6,16 @@ import { Config, Nav, Platform } from 'ionic-angular';
 
 import { FirstRunPage } from '../pages/pages';
 import { Settings } from '../providers/providers';
+import firebase from 'firebase';
+
+firebase.initializeApp({
+  apiKey: "AIzaSyCw9b55b7HjMrdp9CHHWoJZehw11H2Lnn0",
+  authDomain: "easy-to-post.firebaseapp.com",
+  databaseURL: "https://easy-to-post.firebaseio.com",
+  projectId: "easy-to-post",
+  storageBucket: "easy-to-post.appspot.com",
+  messagingSenderId: "529117873334"
+});
 
 @Component({
   template: `<ion-menu [content]="content">
